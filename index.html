@@ -5,98 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+          crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/style.css">
     <title>Wearable</title>
 </head>
 <body>
-            <!-- header menu de navegacion -->
+           <!--header menu de navegacion -->
+
     <header class="header" id="header">
-        <nav>
-            <a href="./index.html">
-                <img class= "logo" src="./assets/WM.png" alt="outfit verano">
-            </a>
-
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./pages/blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contáctanos</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-     <!-- contenido principal -->
-
-    <main class="main" id="main"> <!-- main = etiqueta que encierra contenido principal-->
-        <section class="hero">
-            <div class="hero__contenedor">
-                <h1 class="hero__titulo">Wearable Mood</h1>
-                <p>Tu closet a la mano 
-                </p>
+        <nav class="navbar navbar-expand-lg bg-nuevo fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                  <img src="./assets/WM.png" alt="Logo" width="80" height="80">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              </div>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/blog.html">Blog</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contáctanos</a>
+                      </li>
+              </div>
             </div>
-        </section>
+          </nav>
+    </header>
+<main class="main" id="main">
+    <section class="hero">
+        <div class="hero__contenedor">
+            <h1 class="hero__titulo">Wearable Mood</h1>
+            <p>Tu closet a la mano 
+            </p>
+        </div>
+    </section> 
+  <!-- seccion nuestros clientes -->
+    <section class="clientes">
+        <p class="text-center font-family-playfair">Best Seller</p>
+        <p class="text-center text-decoration text-decoration-underline">Productos</p>
 
-        <!-- seccion nuestros clientes -->
-        <section class="clientes">
-            <h2><span class="second-color"></span> Best Seller</h2>
-            <h4><span class="clientesh3"></span> <u>Productos</u></h4>
+        <div class="cards">
 
-            <div class="cards">
+            <!-- card de rate -->
+            <div class="col">
 
-                <!-- card de rate -->
-                <div class="card">
+                <img src="./assets/producto 1.jpeg" alt="outfit verano">
 
-                    <img src="./assets/producto 1.jpeg" alt="outfit verano">
+                <div class="card__body">
+                    <h3> <span class="second-color">Outfit Verano </span></h3>
 
-                    <div class="card__body">
-                        <h3> <span class="second-color">Outfit Verano </span></h3>
-
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
-                            et deleniti mollitia blanditiis est dolore. Unde?</p>
-                        
-                        <button class="btn">Comprar</button>
-                    </div>
-
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                        et deleniti mollitia blanditiis est dolore. Unde?</p>
+                    
+                    <button class="btn">Comprar</button>
                 </div>
 
+            </div>
 
-                <!-- card de rate -->
-                <div class="card">
-                    <img src="./assets/producto 2.webp" alt="outfit verano">
-                    <div class="card__body">
-                        <h3> <span class="second-color">Outfit otoño</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
-                            et deleniti mollitia blanditiis est dolore. Unde?</p>
 
-                        <button class="btn">Comprar</button>
-                    </div>
+            <!-- card de rate -->
+            <div class="col">
+                <img src="./assets/producto 2.webp" alt="outfit verano">
+                <div class="card__body">
+                    <h3> <span class="second-color">Outfit otoño</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                        et deleniti mollitia blanditiis est dolore. Unde?</p>
+
+                    <button class="btn">Comprar</button>
                 </div>
+            </div>
 
-                <!-- card de rate -->
-                <div class="card">
-                    <img src="./assets/producto 3.webp" alt="outfit verano">
-                    <div class="card__body">
-                        <h3> <span class="second-color">Outfit invierno</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
-                            et deleniti mollitia blanditiis est dolore. Unde?</p>
+            <!-- card de rate -->
+            <div class="col">
+                <img src="./assets/producto 3.webp" alt="outfit verano">
+                <div class="card__body">
+                    <h3> <span class="second-color">Outfit invierno</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto unde laboriosam harum
+                        et deleniti mollitia blanditiis est dolore. Unde?</p>
 
-                        <button class="btn">Comprar</button>
-                    </div>
+                    <button class="btn">Comprar</button>
                 </div>
-        </section>
-
-    </main>
+            </div>
+        </div>
+      </div>
+    </section>
+</main>
 
 
     <!--Pie de pagina -->
@@ -160,7 +173,9 @@
 
         </section>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
    
 </body>
 </html>
