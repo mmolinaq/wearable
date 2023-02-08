@@ -183,7 +183,6 @@ nav ul :hover {
     height: 100vh;
     display: flex;
     align-items: center;
-
 }
 
 .hero__contenedor {
@@ -204,7 +203,6 @@ nav ul :hover {
     font-family: playfair;
     font-size: 80px;
     color: #47320A;
-
 }
 
 /* NOSOTROS  */
@@ -213,16 +211,33 @@ nav ul :hover {
     background-image: url(../assets/slidernosotros.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
 }
 
 .coln{
     background-image: url(../assets/pexels-photo-3738222.jpeg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coln2 {
+    background-image: url(../assets/pexels-photo-6971877.jpeg);
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: cover;
@@ -272,6 +287,15 @@ nav ul :hover {
     gap: 140px;
     width: 100%;
     margin-bottom: 80px;
+    margin-top: 90px;
+}
+
+.row_nosotros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-bottom: 90px;
 }
 
 .card-nosotros {
@@ -474,7 +498,7 @@ nav ul :hover {
     justify-content: center;
 }
 
-/* BLOG */
+/* BLOG 
 
 .blog {
     background-image: url(../assets/blogslider.jpeg);
@@ -604,7 +628,7 @@ nav ul :hover {
     height: 100vh;
     display: flex;
     align-items: center;
-
+    justify-content: center;
 }
 
 .contenedorcontact {
@@ -612,6 +636,7 @@ nav ul :hover {
     color: #47320A;
     padding: 20px;
     height: 100%;
+    width: 100%;
 }
 
 .contacto__contenedor {
@@ -632,7 +657,6 @@ nav ul :hover {
     font-family: playfair;
     font-size: 50px;
     color: #47320A;
-
 }
 
 .contenedorcontact h2 {
@@ -645,7 +669,6 @@ nav ul :hover {
 .contenedorcontact h4 {
     font-family: playfair;
     font-size: 20px;
-    padding: 0px 595px 30px;
     align-items: center;
 }
 
@@ -721,19 +744,23 @@ nav ul :hover {
 }
 
 .contacto__titulo {
+    color: #fff;
+    font-family: playfair;
+    font-size: 80px;
+}
+
+.ptituloc {
     font-family: playfair;
     font-size: 80px;
     color: #fff;
-    align-items: center;
-    padding: 0px 500px;
-
 }
 
 .formulario {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 0px 290px;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .formulario img {
@@ -745,7 +772,7 @@ nav ul :hover {
 .form {
     background: #47320A; 
     color: #E0DDD5;
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -754,6 +781,7 @@ nav ul :hover {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    flex-wrap: nowrap;
 }
 
 .form__content {
