@@ -1,0 +1,94 @@
+/* HEADER */
+header {
+    background-color: $color2;
+    font-family: $font-main;
+    height: 110px;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.bg-nuevo {
+    background-color: $color2;
+    font-family: $font-main;
+    height: 110px;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav bar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 55px;
+
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.nav-link {
+    color: $color;
+}
+.nav-item {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    gap: 60px;
+    transform: 10s;
+}
+
+.nav-item :hover {
+    color: #a88036;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    gap: 60px;
+    transform: translate(1px, 1px);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 55px;
+}
+
+nav a {
+    color: $color;
+}
+
+nav ul {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    gap: 60px;
+    
+}
+
+nav ul :hover {
+    color: #a88036;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    gap: 60px;
+}

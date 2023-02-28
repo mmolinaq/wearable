@@ -1,0 +1,15 @@
+//import de base
+@import './base/mixin.scss';
+@import './base/reset.scss';
+@import './base/varriables.scss';
+
+//import de components
+@import './components/header.scss';
+@import './components/main.scss';
+@import './components/footer.scss';
+
+//import de layout
+@import './layout/index.scss';
+@import './layout/nosotros.scss';
+@import './layout/productos.scss';
+@import './layout/contacto.scss';

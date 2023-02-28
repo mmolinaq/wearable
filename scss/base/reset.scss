@@ -1,0 +1,29 @@
+/*incluir fuente desde google font */
+@import url('https://fonts.google.com/specimen/Playfair+Display');
+/* COLORES
+
+#47320A CAFÃ‰ OSCURO
+#E0DDD5 CAFÃ‰ CLARO
+
+*/
+
+/*incluir fuente localmente desde nuestra pc*/
+@font-face {
+    font-family: playfair;
+    src: url(../assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+/* * = selector universal para reseteo de estilos por default del html*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

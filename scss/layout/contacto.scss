@@ -1,0 +1,149 @@
+/*CONTACTO*/
+
+.contacto {
+    background-image: url(../assets/contacto.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorcontact {
+    background: #fdf7ed;
+    color: $color;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.contacto__contenedor {
+    padding: 200px 50px;
+    color: #fdf7ed;
+    width: 60%;
+    gap: 10px;
+}
+
+.contacto__contenedor p {
+    font-family: $font-main;
+    font-size: 40px;
+    padding-right: 150px;
+    margin: 15px 0;
+}
+
+.contacto__titulo {
+    font-family: $font-main;
+    font-size: 50px;
+    color: $color;
+}
+
+.contenedorcontact h2 {
+    font-family: $font-main;
+    font-size: 50px;
+    padding: 20px 570px;
+    align-items: center;
+}
+
+.contenedorcontact h4 {
+    font-family: $font-main;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+/* CONTACTO */
+.main {
+    background: #fdf7ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contacto__titulo {
+    color: #fff;
+    font-family: $font-main;
+    font-size: 80px;
+}
+
+.ptituloc {
+    font-family: $font-main;
+    font-size: 80px;
+    color: #fff;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.formulario img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form {
+    background: $color; 
+    color: $color2;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: $font-main;
+    color: #ffebcd;
+}
+
+.form__content input {
+    padding: 10px;
+    font-family: $font-main;
+    background: $color2;
+    border-radius: 5px;
+}
+
+.form__content textarea {
+    resize: none;
+    font-family: 'playfair';
+
+}
+
+.form__content--check {
+    display: flex;
+    font-family: $font-main;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffebcd;
+}
+
+
+.form__btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn--form {
+    background-color: rgb(149, 0, 0);
+}

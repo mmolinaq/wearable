@@ -1,0 +1,57 @@
+/* RATE */
+
+.clientes {
+    background: $color;
+    color: #ffff;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.clientes h2 {
+    font-family: $font-main;
+    font-size: 50px;
+    padding: 20px 570px;
+    align-items: center;
+}
+
+.clientes h4 {
+    font-family: $font-main;
+    font-size: 20px;
+    padding: 0px 640px 30px;
+    align-items: center;
+}
+
+
+.cards {
+    display: flex;
+    color: $color;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.col {
+    width: 100%;
+    background-color: #fdf7ed;
+    padding: 10px;
+}
+
+.card__body {
+    font-family: $font-main;
+    font-size: 16px;
+    align-self: flex-end;
+}
+
+.card__body button.btn {
+    align-self: flex-end;
+}
+
+
+.col img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
